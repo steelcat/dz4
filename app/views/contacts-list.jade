@@ -11,7 +11,7 @@ block content
 				th Email
 		tbody
 			tr(ng-repeat="contact in contacts")
-				td {{contact.id}}
+				td {{$index}}
 				td {{contact.name}}
 				td {{contact.lastname}}
 				td {{contact.tel}}
