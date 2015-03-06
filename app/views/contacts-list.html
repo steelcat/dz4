@@ -4,7 +4,7 @@
   <body>
     <div class="container">
       <h2>Контакты</h2>
-      <table ng-controller="ContactsListController" class="table">
+      <table class="table">
         <thead>
           <tr>
             <th>#</th>
@@ -18,7 +18,7 @@
           <tr ng-repeat="contact in contacts">
             <td>{{contact.id}}</td>
             <td>{{contact.name}}</td>
-            <td>{{contact.secname}}</td>
+            <td>{{contact.lastname}}</td>
             <td>{{contact.tel}}</td>
             <td>{{contact.mail}}</td>
           </tr>
